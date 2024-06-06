@@ -1,0 +1,28 @@
+{
+	"version": "1.7.2",
+	"manifest_version": 2,
+	"name": "addmefast bot",
+	"short_name": "addmefastBot",
+	"permissions": ["tabs","storage", "http://*/", "https://*/"],
+	"content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com https://code.jquery.com; object-src 'self'",
+	"content_scripts": [ {
+		"matches": [ "http://*/*", "https://*/*" ],
+		"js": ["http://*/*"],
+		"js": ["https://*/*"],
+		"js": ["amehkalmedmdaclblbakhljoiakpdcpbd.js"],
+		"run_at": "document_start"
+	} ],
+	"background": {
+		"scripts": [ "bngbajnacnmfeofammoffiaangiijkakj.js" ]
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "addmefast boot"
+	},
+	"description": "This extension allows you to automatically collect points from addmefast.com without any interference from you, with the possibility to choose your business method so that you can get as many points as possible.",
+	"icons": {
+		"128": "icon.png",
+		"48": "icon.png"
+	}
+}
